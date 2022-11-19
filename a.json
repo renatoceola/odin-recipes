@@ -3,7 +3,7 @@
   "title": "Blood Lords - Zombie Feast",
   "description": "<p>Dispatched to look into strange events at a farm tended by zombie workhands, the characters find a grave threat to the living population in the undead-dominated nation of Geb. Exposing the plot is the first step to influence and power, but if the investigators aren&rsquo;t careful, it might be their last!</p>",
   "manifest": "https://cdn.paizo.com/foundry/modules/pf2e-ap181-zombie-feast/module.json",
-  "protected": false,
+  "protected": true,
   "minimumCoreVersion": "10.286",
   "compatibleCoreVersion": "10.286",
   "url": "https://paizo.com/products/btq02dy8?Pathfinder-Adventure-Path-181-Zombie-Feast-Bundle",
