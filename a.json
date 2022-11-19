@@ -1,0 +1,74 @@
+{
+  "id": "pf2e-ap181-zombie-feast",
+  "title": "Blood Lords - Zombie Feast",
+  "description": "<p>Dispatched to look into strange events at a farm tended by zombie workhands, the characters find a grave threat to the living population in the undead-dominated nation of Geb. Exposing the plot is the first step to influence and power, but if the investigators aren&rsquo;t careful, it might be their last!</p>",
+  "manifest": "https://cdn.paizo.com/foundry/modules/pf2e-ap181-zombie-feast/module.json",
+  "protected": false,
+  "minimumCoreVersion": "10.286",
+  "compatibleCoreVersion": "10.286",
+  "url": "https://paizo.com/products/btq02dy8?Pathfinder-Adventure-Path-181-Zombie-Feast-Bundle",
+  "version": "1.1.2",
+  "authors": [
+    {
+      "name": "Paizo",
+      "url": "https://paizo.com"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10.286",
+    "verified": "10.286"
+  },
+  "manifestPlusVersion": "1.0.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://cdn.paizo.com/e7fd0eeb-9d7d-006b-7558-1a3e2f7bd8df/74b562d9-3a4d-42d8-b81d-41abb1ac4e2e/PZO90181.jpg"
+    },
+    {
+      "type": "icon",
+      "url": "https://cdn.paizo.com/image/navigation/Nav-Logo-Global.png"
+    }
+  ],
+  "packs": [
+    {
+      "name": "adventures",
+      "label": "Blood Lords - Zombie Feast",
+      "path": "packs/adventures.db",
+      "package": "pf2e-ap181-zombie-feast",
+      "system": "pf2e",
+      "private": false,
+      "type": "Adventure"
+    }
+  ],
+  "scripts": [],
+  "esmodules": [
+    "scripts/pf2e-adventure.mjs"
+  ],
+  "styles": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/download/4.1.0/system.json",
+        "compatibility": {
+          "minimum": "4.1.0",
+          "verified": "4.1.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-ap181-186-blood-lords",
+        "type": "module",
+        "manifest": "https://downloads.paizo.com/foundry-public/modules/pf2e-ap181-186-blood-lords/module.json"
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-ap181-zombie-feast": {
+      "pf2e-art": "modules/pf2e-ap181-zombie-feast/image-mapping.json"
+    },
+    "sigil": {}
+  }
+}
